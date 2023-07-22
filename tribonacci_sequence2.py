@@ -1,13 +1,9 @@
-
-# The second solution
 def tribonacci(s, n):
     if n <= 2:
         return s[:n]
     for i in range(n-3):
         s.append(s[i] + s[i+1] + s[i+2])
     return s
-
-
 
 
 # THe first solution
